@@ -24,7 +24,7 @@ public class Cup extends Bottle {
 	/**
 	 * Número de vezes que o copo foi usado.
 	 */
-	public int numberOfUsages;
+	private int numberOfUsages;
 	
 	
 	/**

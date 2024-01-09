@@ -8,17 +8,17 @@ package types;
 public abstract class AbstractFillingGame implements FillingGame {
 
 	public static String EOL = System.lineSeparator();
-    public static String empty = "⬜";
+    	public static String empty = "⬜";
     
     /** 
      * Tabuleiro de jogo.
      */
-	protected Table table;
+	private Table table;
 	
 	/**
 	 * Número de jogadas feitas.
 	 */
-	protected int jogadas;
+	private int jogadas;
 	
 	/** Cria um tabuleiro de jogo abstrato.
 	 * 

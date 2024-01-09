@@ -4,7 +4,7 @@ package types;
 public class FinalScoringFillingGame extends AbstractFillingGame{
 
 	//TODO
-	protected int score;
+	private int score;
 
 	/**
 	 * 

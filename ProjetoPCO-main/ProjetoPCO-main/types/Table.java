@@ -17,32 +17,32 @@ public class Table {
 	/**
 	 * Dificuldade do jogo.
 	 */
-	protected int dificulty;
+	private int dificulty;
 
 	/**
 	 * Tamanho das garrafas que vão ser usadas. 
 	*/
-	protected int bottleSize;
+	private int bottleSize;
 
 	/**
 	 * Número de simbolos a ser usados.
 	 */
-	protected int numberOfUsedSymbols;
+	private int numberOfUsedSymbols;
 
 	/**
 	 * Conjunto de garrafas que farão o tabuleiro de jogo.
 	 */
-	protected ArrayList<Bottle> table;
+	private ArrayList<Bottle> table;
 
 	/**
 	 * Simbolos a serem uasdos.
 	 */
-	protected Filling[] symbols;
+	private Filling[] symbols;
 
 	/**
 	 * Semente a ser usada.
 	 */
-	protected int seed;
+	private int seed;
 	
 	/** Cria um tabuleiro.
 	 * 

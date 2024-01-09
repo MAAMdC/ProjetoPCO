@@ -27,8 +27,8 @@ public class Bottle implements Iterable<Filling> {
     /**
      * 
      */
-    protected int size;
-    protected Filling[] content;
+    private int size;
+    private Filling[] content;
     
     
     /** Cria uma garrafa com um tamanho predefinido.
